@@ -1,6 +1,5 @@
 const querystring = require('querystring');
 
-const queryString = 'name=value&key=value2';
-const parsedQuery = querystring.parse(queryString);
-
-console.log(parsedQuery);
+let urlQuery="name=value&key=value2";
+let parsedObject=querystring.parse(urlQuery);
+console.log("Parsed Query:", parsedObject)
