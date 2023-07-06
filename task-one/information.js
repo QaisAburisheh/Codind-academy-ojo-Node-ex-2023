@@ -1,2 +1,3 @@
 const name = "Qais"
-module.exports ={name}
+const major = "Mechanical engineer"
+module.exports ={name, major}

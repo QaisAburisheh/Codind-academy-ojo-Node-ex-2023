@@ -1,4 +1,5 @@
 const myName =require('./information')
 const factorial =require('./factorial')
 console.log(myName.name)
+console.log(myName.major)
 console.log(factorial(8))
